@@ -1,5 +1,14 @@
 # CHANGELOG
 
+## v0.6.8
+
+- READMEにユーザー担当、Codex担当、Codex非担当の役割分担を追加
+- `index.html` を本番HTMLとして扱う方針を明確化
+- `fc-poupelle_HPsite.html` は今後使用しない旧版・重複ファイルとして明記
+- Git操作はユーザーがGitHub Desktopで行い、Codexは実行しない方針を明記
+- GitHub Desktopでの作業フロー、キャッシュ対策、更新前チェックリストを整理
+- `index.html` と `fc-poupelle_HPsite.html` は完全一致しており、旧HTMLから本番HTMLへ反映すべき差分がないことを確認
+
 ## v0.6.7
 
 - ロゴ外周の白い円が残っていたため、CSSの円形クリップ範囲をさらに内側へ調整
