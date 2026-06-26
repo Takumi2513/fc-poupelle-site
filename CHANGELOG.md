@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## v0.7.0
+
+- `index.html` のEventセクションを `NEXT EVENT` / `UPCOMING` の2段構成に更新
+- NEXT EVENTを大きいカード、UPCOMINGを3件の小さいカードで表示
+- 各イベントにイベント名、日時、場所、参加費、対象、ステータスを追加
+- NEXT EVENTに「LINEで参加申込」と「支払い方法を見る」ボタンを配置
+- Eventセクションの赤い仮表示を自然な補足文とステータス表示へ変更
+- スマホ表示でEventカードが縦に読みやすく並ぶようCSSを追加
+- `index.html` を本番HTMLとして最新化し、`fc-poupelle_HPsite.html` は編集しない方針を維持
+
 ## v0.6.8
 
 - READMEにユーザー担当、Codex担当、Codex非担当の役割分担を追加
