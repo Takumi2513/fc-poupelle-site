@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## v0.7.1
+
+- Heroの「FC POUPELLE」と「FOOTBALL, FRIENDS, GOOD ENERGY.」が途中で改行されないように調整
+- CSSキャッシュ対策として `style.css` の読み込みバージョンを `v=0.7.1` に更新
+
 ## v0.7.0
 
 - `index.html` のEventセクションを `NEXT EVENT` / `UPCOMING` の2段構成に更新

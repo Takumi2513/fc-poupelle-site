@@ -121,6 +121,11 @@ h1 {
   text-shadow: 0 0 28px rgba(214, 169, 58, 0.16), 0 14px 42px rgba(0, 0, 0, 0.72);
 }
 
+.hero-title {
+  font-size: clamp(46px, 7.6vw, 104px);
+  white-space: nowrap;
+}
+
 h2 {
   font-size: clamp(28px, 5vw, 48px);
   line-height: 1.15;
@@ -139,10 +144,11 @@ h4 {
 
 .hero-lead {
   color: var(--gold-light);
-  font-size: clamp(24px, 3vw, 42px);
+  font-size: clamp(15px, 2.7vw, 38px);
   font-weight: 900;
   line-height: 1.25;
   letter-spacing: 0.01em;
+  white-space: nowrap;
 }
 
 .hero-text,
